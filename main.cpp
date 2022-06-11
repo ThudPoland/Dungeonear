@@ -1,8 +1,9 @@
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-
 #include <QLocale>
 #include <QTranslator>
+
 
 int main(int argc, char *argv[])
 {

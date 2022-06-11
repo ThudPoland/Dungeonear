@@ -14,9 +14,13 @@ qt_add_executable(appDungeonear
 qt_add_qml_module(appDungeonear
     URI Dungeonear
     VERSION 1.0
-    QML_FILES   main.qml
-                DungeonearMenu.qml
-                DungeonearLayout.qml
+    QML_FILES
+        main.qml
+        DungeonearMenu.qml
+        DungeonearLayout.qml
+    SOURCES
+        dungeon_canvas.cpp
+        dungeon_canvas.hpp
 )
 
 set_target_properties(appDungeonear PROPERTIES

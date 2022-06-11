@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import QtQuick.Layouts 2.15
+import Dungeonear
 
 GridLayout {
     columns: 2
@@ -11,9 +12,9 @@ GridLayout {
         Layout.preferredWidth: 40
         Layout.fillHeight: true
     }
-    Rectangle {
+
+    DungeonCanvas {
         Layout.alignment: Qt.AlignRight
-        color: "white"
         Layout.fillHeight: true
         Layout.fillWidth: true
     }
